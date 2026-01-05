@@ -11,4 +11,4 @@ elif average >= 60:
 else:
     performance = "At Risk"
 
-print(performance)
+print(f"{student}: Average = {average:.2f}, Performance = {performance}")
